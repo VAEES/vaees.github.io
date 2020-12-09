@@ -1,0 +1,9 @@
+- name: Home
+  label: Home button
+  path: /
+  icon: fas fa-home
+
+- name: Article
+  label: Article button
+  path: /articles
+  icon: fas fa-home

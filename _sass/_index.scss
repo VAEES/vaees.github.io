@@ -2,7 +2,9 @@
 @import 'vendor/fontawesome';
 @import 'vendor/normalize';
 
-@import 'standards/keyframes';
+@import 'standards/variables';
 @import 'standards/defaults';
+@import 'standards/mixins';
+@import 'standards/keyframes';
 
-// @import 'lib/keyframes';
+@import 'components/nav-bar';

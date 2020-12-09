@@ -1,1 +1,11 @@
-f
+<nav id="nav-bar">
+
+    {% for menu in site.data.menus %}
+
+    <a aria-label="{{menu.label}}" href="{{ menu.path | prepend: site.baseurl }}">
+        <i class="{{menu.icon}}"></i>
+    </a>
+
+    {% endfor %}
+
+</nav>
