@@ -1,0 +1,24 @@
+title: Vaees's blog
+description: ""
+email: info@vaees.com
+url: "https://vaees.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+paginate_path: /articles/:num/
+paginate: 6
+
+username: Vaees
+user_title: Smart solutions with innovative SAP technology for e-procurement.
+user_description: Improve purchasing process and supply chain with procure-to-pay (P2P) software solutions.
+author: Nathan Botelho
+
+user_npm: https://www.npmjs.com/~dev_vaees
+user_github: https://github.com/vaees
+user_linkedin: https://www.linkedin.com/company/vaees/
+
+exclude: ['LICENSE', 'package.json', 'node_modules']
+
+plugins:
+  - jekyll-paginate

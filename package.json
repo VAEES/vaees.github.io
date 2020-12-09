@@ -1,0 +1,23 @@
+{
+  "name": "vaees.gitgub.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "jekyll serve"
+  },
+  "keywords": [],
+  "author": {
+    "email": "nathan.botelho@vaees.com",
+    "name": "Nathan Botelho",
+    "url": "https://github.com/notelho"
+  },
+  "contributors": [
+    {
+      "email": "lucas.cardoso@vaees.com",
+      "name": "Lucas M Cardoso",
+      "url": "https://github.com/mlucascardoso"
+    }
+  ],
+  "license": "GNU"
+}
