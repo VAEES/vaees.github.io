@@ -18,7 +18,7 @@ user_npm: https://www.npmjs.com/~dev_vaees
 user_github: https://github.com/vaees
 user_linkedin: https://www.linkedin.com/company/vaees/
 
-exclude: ['LICENSE', 'package.json', 'node_modules']
+exclude: ['LICENSE', 'package.json']
 
 plugins:
   - jekyll-paginate
