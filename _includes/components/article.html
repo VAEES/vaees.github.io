@@ -1,1 +1,25 @@
-d
+<article class="article">
+
+    <img class="article__thumb" src="/assets/thumbs/{{post.thumb}}">
+
+    <div class="article__content">
+
+        <div class="content__wrapper">
+
+            <h3> {{ article.title }} </h3>
+
+            <time> {{ article.date | date_to_string }} </time>
+
+            <p> {{article.content | strip_html | strip_newlines | truncate: 230 }} </p>
+
+            <div>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</article>
