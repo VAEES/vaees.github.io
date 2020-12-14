@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "aaa to Jekyll!"
+title: "Cukinha delas"
 date: 2016-03-12
 categories: jekyll update
 thumb: sample.jpg
