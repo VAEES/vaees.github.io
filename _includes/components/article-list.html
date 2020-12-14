@@ -1,5 +1,21 @@
-<div id="article-list">
+<section id="article-list">
 
-    sap badge
+    <div class="articles__description">
+        <h2> Check my articles list below:</h2>
+        <p>
+            There's nothing special there, just a few things to remember in your daily life, <br>
+            like installations, links, code snippets, and others.
+        </p>
+    </div>
 
-</div>
+    <div class="articles__list">
+
+        {% for article in paginator.posts %}
+
+            {% include components/article.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
