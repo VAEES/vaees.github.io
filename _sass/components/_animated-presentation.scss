@@ -2,6 +2,7 @@
     width: 100vw;
     height: calc(100vh - #{$size-navbar} + #{$size-transition});
     position: relative;
+    overflow: hidden;
 
     .animated-presentation__presentation {
         position: absolute;

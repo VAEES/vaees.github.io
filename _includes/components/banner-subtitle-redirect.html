@@ -1,0 +1,27 @@
+<section class="banner-subtitle-redirect">
+
+    {% if include.title %}
+        <div class="banner-subtitle-redirect__title">
+            <h1>  {{ include.title }} </h1>
+        </div>
+    {% endif %}
+
+	<div class="banner-subtitle-redirect__about">
+		<div class="banner-subtitle-redirect__tumb">
+            <img class="banner-subtitle-redirect__logo" src="{{ include.img }}">
+		</div>
+
+		<div class="banner-subtitle-redirect__content">
+			<h3> {{ include.subtitle }} </h3>
+			<p> {{ include.description }} </p>
+
+            {% if include.path %}
+                <div class="banner-subtitle-redirect__goto">
+                    <a href="{{ include.path }}"> Go check </a>
+                </div>
+            {% endif %}
+
+		</div>
+	</div>
+
+</section>

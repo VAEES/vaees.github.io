@@ -4,6 +4,18 @@
 
 {% include components/animated-presentation.html %}
 
+{% capture banner_treasure_chest_logo %}
+{{ '/assets/svg/sap-treasure-chest.svg' | prepend: site.baseurl }}
+{% endcapture %}
+
+{% capture banner_sap_silver_logo %}
+{{ '/assets/img/sap-silver-partner.png' | prepend: site.baseurl }}
+{% endcapture %}
+
+{% include components/banner-subtitle-redirect.html img=banner_treasure_chest_logo subtitle="The code is our treasure!" description="We sail with experienced and competent programmers for organizations that care about the quality of our products. With a wide range of client companies, we work every day to improve our technologies and maturity." title="Welcome to vaees!" %}
+
+{% include components/banner-subtitle-redirect.html img=banner_sap_silver_logo subtitle="SAP silver partner!" description="Ahoy! We are an SAP Silver Partner and we are day to day supporting consulting in several companies, developing SAP UI5 applications, SAP HANA cloud, neo and cloud foundry environments, among others. We help to identify and develop important automations for your organization!" %}
+
 <!-- {% include components/animated-sap-badge.html %}
 
 {% include components/banner-learn-more.html %}

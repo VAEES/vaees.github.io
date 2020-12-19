@@ -8,6 +8,7 @@ html, body {
     color: $color-black;
     font-family: $font-nunito;
     overflow-x: hidden;
+    background-color: $color-white;
 
     &::-webkit-scrollbar {
         width: 7px;
