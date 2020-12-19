@@ -2,13 +2,19 @@
 @import 'vendor/fontawesome';
 @import 'vendor/normalize';
 
+@import 'standards/functions';
 @import 'standards/variables';
 @import 'standards/defaults';
 @import 'standards/mixins';
 @import 'standards/keyframes';
 
+@import 'components/animated-ocean-background';
+@import 'components/animated-ocean-hud';
+@import 'components/animated-ocean-island';
+@import 'components/animated-ocean-ship';
 @import 'components/animated-presentation';
 @import 'components/animated-sap-badge';
+@import 'components/animated-transition-svg';
 @import 'components/article-list';
 @import 'components/article-paginator';
 @import 'components/article';
