@@ -1,5 +1,29 @@
 #animated-presentation {
     width: 100vw;
-    height: 100vh;
-    background-color: blue;
+    height: calc(100vh - #{$size-navbar} + #{$size-transition});
+    position: relative;
+
+    .presentation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - #{$size-transition});
+        
+        .container{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-color: $color-white;
+        }
+    }
+
+    .transition {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: $size-transition;
+        background-color: $color-primary;
+    }
 }

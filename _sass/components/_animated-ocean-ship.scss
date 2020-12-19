@@ -1,0 +1,64 @@
+#animated-ocean-ship{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    .sea{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .wave{
+            position: absolute;
+            bottom: -35px;
+            left: 0;
+            height: auto;
+
+            &.wave-front{
+                width: 100%;
+                z-index: 4;
+            }
+
+            &.wave-back{
+                width: 110%;
+                transform: scaleY(1.6) rotate(-6deg);
+                z-index: 2;
+            }
+
+            svg{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .ship{
+            position: absolute;
+            bottom: 27%;
+            left: 53%;
+            z-index: 3;
+            animation: shipfly 2s ease infinite alternate;
+
+            @at-root{
+                @keyframes shipfly {
+                    from {
+                        bottom: 27%;
+                        left: 53%;
+                    }
+                    to {
+                        bottom: 25%;
+                        left: 53%;
+                    }
+                }
+            }
+
+            svg{
+                width: 320px;
+                height: auto;
+            }
+        }
+    }
+}
