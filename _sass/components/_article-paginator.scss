@@ -4,23 +4,23 @@
     justify-content: center;
     align-items: center;
 
-    .paginator__wrapper{
+    .paginator__wrapper {
         height: 100%;
         width: calc(350px * 3 + 20px);
         display: flex;
         justify-content: flex-end;
         align-items: center;
 
-        @media (max-width: ($defaultsize * 3) + ($defaultgap * 3) - 1px ){
+        @media (max-width: ($defaultsize * 3) + ($defaultgap * 3) - 1px) {
             width: calc((#{$defaultsize} * 2) + (#{$defaultgap} * 2));
         }
 
-        @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
+        @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
             width: 100%;
             justify-content: center;
         }
 
-        .paginator__button{
+        .paginator__button {
             text-decoration: none !important;
             outline: 0 !important;
             background-color: $color-primary;
@@ -33,34 +33,34 @@
             border-radius: 50%;
             margin: 0 5px;
 
-            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
+            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
                 width: 30px;
                 height: 30px;
             }
 
-            &:hover{
+            &:hover {
                 background-color: $color-white;
                 color: $color-primary;
                 cursor: pointer;
             }
         }
 
-        .paginator__info{
+        .paginator__info {
             margin: 0 6px;
 
-            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
+            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
                 margin: 0 8px;
             }
         }
 
-        .paginator__mock{
+        .paginator__mock {
             margin: 0 5px;
             background-color: #dddddd;
             width: 25px;
             height: 25px;
             border-radius: 50%;
 
-            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
+            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
                 width: 30px;
                 height: 30px;
             }
