@@ -1,8 +1,15 @@
 $color-primary: #0076b1;
-$color-light: #fafafa;
-$color-dark: #353535;
+$color-light: #2D8EBF;
+$color-dark: #00547E;
+$color-white: #fafafa;
+$color-black: #292B33;
 
 $font-nunito: 'Nunito', sans-serif;
+
+$size-navbar: 80px;
+$size-transition: 165px;
+
+$z-index-navbar: 500;
 
 $breakpoint-m: 1024px;
 $breakpoint-s: 768px;
@@ -19,3 +26,7 @@ $smalloffset: 20px;
 $biggap: 20px;
 $bigsize: 400px;
 $bigoffset: 80px;
+
+$boxshadow-large: box-shadow(300);
+$boxshadow-medium: box-shadow(500);
+$boxshadow-small: box-shadow(800);

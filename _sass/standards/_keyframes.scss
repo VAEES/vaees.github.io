@@ -1,0 +1,53 @@
+@keyframes blink-large {
+	0% {
+		box-shadow: $boxshadow-large;
+	}	
+	70% {
+		$colors: '#fff', 'transparent';
+		$stars: $boxshadow-large;
+		@for $i from 1 to length($stars) {
+			$star: set-nth(nth($stars, $i), 3, unquote(nth($colors, random(length($colors)))));
+			$stars: set-nth($stars, $i, $star);
+		}
+		box-shadow: $stars;
+	}
+	100% {
+		box-shadow: $boxshadow-large;
+	}
+}
+
+@keyframes blink-medium {
+	0% {
+		box-shadow: $boxshadow-medium;
+	}	
+	70% {
+		$colors: '#fff', 'transparent';
+		$stars: $boxshadow-medium;
+		@for $i from 1 to length($stars) {
+			$star: set-nth(nth($stars, $i), 3, unquote(nth($colors, random(length($colors)))));
+			$stars: set-nth($stars, $i, $star);
+		}
+		box-shadow: $stars;
+	}
+	100% {
+		box-shadow: $boxshadow-medium;
+	}
+}
+
+@keyframes blink-small {
+	0% {
+		box-shadow: $boxshadow-small;
+	}	
+	70% {
+		$colors: '#fff', 'transparent';
+		$stars: $boxshadow-small;
+		@for $i from 1 to length($stars) {
+			$star: set-nth(nth($stars, $i), 3, unquote(nth($colors, random(length($colors)))));
+			$stars: set-nth($stars, $i, $star);
+		}
+		box-shadow: $stars;
+	}
+	100% {
+		box-shadow: $boxshadow-small;
+	}
+}
