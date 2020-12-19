@@ -1,9 +1,21 @@
 - name: Home
   label: Home button
+  local: true
   path: /
-  icon: fas fa-home
 
-- name: Article
-  label: Article button
-  path: /articles
-  icon: fas fa-home
+- name: Services
+  label: Services button
+  path: https://www.vaees.com/services/
+
+- name: Who we are
+  label: Who we are button
+  path: https://www.vaees.com/who-we-are/
+
+- name: Site
+  label: Site button
+  path: https://www.vaees.com/
+
+- name: Blog
+  label: Blog button
+  local: true
+  path: /articles/

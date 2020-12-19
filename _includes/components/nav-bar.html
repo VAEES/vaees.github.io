@@ -1,11 +1,19 @@
 <nav id="nav-bar">
-
-    {% for menu in site.data.menus %}
-
-    <a aria-label="{{menu.label}}" href="{{ menu.path | prepend: site.baseurl }}">
-        <i class="{{menu.icon}}"></i>
+    <a href="{{ site.baseurl }}" class="logo">
+        <img src="{{ '/assets/svg/vaees-white-logo.svg' | prepend: site.baseurl }}" alt="">
     </a>
 
-    {% endfor %}
-
+    <div class="menus">
+        {% for menu in site.data.menus %}
+            {% if menu.local %}
+                <a aria-label="{{menu.label}}" href="{{ menu.path }}" class="item">
+                    <span> {{menu.name}}  </span>
+                </a>
+            {% else %}
+                <a aria-label="{{menu.label}}" href="{{ menu.path | prepend: site.baseurl }}" class="item">
+                    <span> {{menu.name}}  </span>
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
 </nav>
