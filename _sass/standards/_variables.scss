@@ -15,17 +15,9 @@ $breakpoint-m: 1024px;
 $breakpoint-s: 768px;
 $breakpoint-xs: 500px;
 
-$defaultgap: 10px;
-$defaultsize: 350px;
-$defaultoffset: 40px;
-
-$smallgap: 5px;
-$smallsize: 280px;
-$smalloffset: 20px;
-
-$biggap: 20px;
-$bigsize: 400px;
-$bigoffset: 80px;
+$default-card-gap: 10px;
+$default-card-size: 350px;
+$default-card-offset: 40px;
 
 $boxshadow-large: box-shadow(300);
 $boxshadow-medium: box-shadow(500);

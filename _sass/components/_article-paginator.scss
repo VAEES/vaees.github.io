@@ -11,11 +11,11 @@
         justify-content: flex-end;
         align-items: center;
 
-        @media (max-width: ($defaultsize * 3) + ($defaultgap * 3) - 1px) {
-            width: calc((#{$defaultsize} * 2) + (#{$defaultgap} * 2));
+        @media (max-width: ($default-card-size * 3) + ($default-card-gap * 3) - 1px) {
+            width: calc((#{$default-card-size} * 2) + (#{$default-card-gap} * 2));
         }
 
-        @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
+        @media (max-width: ($default-card-size * 2) + ($default-card-gap * 3) - 1px) {
             width: 100%;
             justify-content: center;
         }
@@ -33,7 +33,7 @@
             border-radius: 50%;
             margin: 0 5px;
 
-            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
+            @media (max-width: ($default-card-size * 2) + ($default-card-gap * 3) - 1px) {
                 width: 30px;
                 height: 30px;
             }
@@ -48,7 +48,7 @@
         .paginator__info {
             margin: 0 6px;
 
-            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
+            @media (max-width: ($default-card-size * 2) + ($default-card-gap * 3) - 1px) {
                 margin: 0 8px;
             }
         }
@@ -60,7 +60,7 @@
             height: 25px;
             border-radius: 50%;
 
-            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px) {
+            @media (max-width: ($default-card-size * 2) + ($default-card-gap * 3) - 1px) {
                 width: 30px;
                 height: 30px;
             }

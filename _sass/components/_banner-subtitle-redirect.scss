@@ -50,7 +50,6 @@
                 }
 
                 @media only screen and (max-width: $breakpoint-s) {
-                    clip-path: circle(30% at center center);
                     width: 100%;
                 }
             }
@@ -87,11 +86,13 @@
                 padding: 10px 0;
 
                 a {
+                    display: block;
                     text-decoration: none;
                     border: solid 2px $color-primary;
                     text-align: center;
                     color: $color-primary;
-                    padding: 6px 14px;
+                    padding: 3px 0;
+                    width: 140px;
                     border-radius: 25px;
                     transition: ease-out all 0.1s;
 

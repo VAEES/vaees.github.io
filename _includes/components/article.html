@@ -1,10 +1,10 @@
 <article class="article">
 
-    <img class="article__thumb" src="/assets/thumbs/{{post.thumb}}">
+    <img class="article__thumb" src="/assets/thumbs/{{article.thumb}}">
 
     <div class="article__content">
 
-        <div class="content__wrapper">
+        <div class="article__wrapper">
 
             <h3> {{ article.title }} </h3>
 
@@ -12,8 +12,8 @@
 
             <p> {{article.content | strip_html | strip_newlines | truncate: 230 }} </p>
 
-            <div>
-                <a href="{{ site.baseurl }}{{ post.url }}">
+            <div class="article__actions">
+                <a href="{{ site.baseurl }}{{ article.url }}">
                     <i class="fas fa-angle-double-right"></i>
                 </a>
             </div>

@@ -1,21 +1,15 @@
 <section id="banner-article">
-
-    <div class="articles__title">
+    <div class="banner-article__title">
         <h1> Last articles </h1>
     </div>
 
-    <div class="articles__smallist">
-
+    <div class="banner-article__sample">
         {% for article in site.posts limit:4 %}
-
             {% include components/article.html %}
-
         {% endfor %}
-
     </div>
 
-    <div class="articles__seemore">
+    <div class="banner-article__seemore">
         <a href="{{ "/articles/" | prepend: site.baseurl }}"> See more articles </a>
     </div>
-
 </section>

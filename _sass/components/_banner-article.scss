@@ -1,60 +1,62 @@
-#banner-article { 
+#banner-article {
     padding: 0 5vw;
-    margin-bottom: 25px;
+    margin: 35px 0;
 
     @media only screen and (max-width: $breakpoint-s) {
         padding: 0 15px;
     }
 
-    .articles__title{
-        h1{
+    .banner-article__title {
+        h1 {
             margin-top: 15px;
             margin-bottom: 20px;
         }
+
         @media only screen and (max-width: $breakpoint-s) {
             text-align: center;
         }
     }
 
-    .articles__smallist{
+    .banner-article__sample {
         justify-content: center;
         display: grid;
-        grid-template-columns: repeat(4, $defaultsize);
-        grid-gap: $defaultgap;
+        grid-template-columns: repeat(4, $default-card-size);
+        grid-gap: $default-card-gap;
         box-sizing: border-box;
-        padding: $defaultgap $defaultgap 0 $defaultgap;
+        padding: $default-card-gap $default-card-gap 0 $default-card-gap;
 
-        @media (max-width: ($defaultsize * 4) + ($defaultgap * 4) - 1px){
-            grid-template-columns: repeat(3, $defaultsize);
-            .post:nth-child(4){
+        @media (max-width: ($default-card-size * 4) + ($default-card-gap * 4) - 1px) {
+            grid-template-columns: repeat(3, $default-card-size);
+
+            & > *:nth-child(4) {
                 display: none;
             }
         }
 
-        @media (max-width: ($defaultsize * 3) + ($defaultgap * 3) - 1px){
-            grid-template-columns: repeat(2, $defaultsize);
-            .post:nth-child(4){
+        @media (max-width: ($default-card-size * 3) + ($default-card-gap * 3) - 1px) {
+            grid-template-columns: repeat(2, $default-card-size);
+
+            & > *:nth-child(4) {
                 display: block;
             }
         }
 
-        @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px){
-            grid-template-columns: repeat(1, $defaultsize);
+        @media (max-width: ($default-card-size * 2) + ($default-card-gap * 3) - 1px) {
+            grid-template-columns: repeat(1, $default-card-size);
         }
-
     }
 
-    .articles__seemore{
+    .banner-article__seemore {
         display: flex;
         justify-content: flex-end;
         align-items: center;
 
-        a{
+        a {
             text-decoration: none !important;
             outline: 0 !important;
             color: $color-primary;
             font-weight: 600;
-            background-color: #ffffff;
+            background-color: $color-white;
             padding: 4px 17px;
             display: flex;
             justify-content: center;
@@ -62,8 +64,8 @@
             border-radius: 35px;
             margin: 0 10px 0 0;
 
-            &:hover{
-                color: #ffffff;
+            &:hover {
+                color: $color-white;
                 background-color: $color-primary;
                 cursor: pointer;
                 font-weight: 400;
