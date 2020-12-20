@@ -10,10 +10,25 @@
         position: relative;
         width: 100%;
         height: 100%;
+        color: $color-white;
+
+        .animated-ocean-hud__title {
+            position: absolute;
+            color: $color-white;
+            top: 15px;
+            left: 35px;
+        }
+
+        .animated-ocean-hud__description {
+            position: absolute;
+            color: $color-white;
+            top: 75px;
+            left: 35px;
+        }
 
         .animated-ocean-hud__logo {
             position: absolute;
-            width: 30vw;
+            width: 23vw;
             bottom: 35px;
             left: 35px;
         }
