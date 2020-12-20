@@ -4,9 +4,9 @@
     justify-content: center;
     align-items: center;
 
-    .paginator__wrapper {
-        height: 100%;
+    .article-paginator__wrapper {
         width: calc(350px * 3 + 20px);
+        height: 100%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -20,7 +20,7 @@
             justify-content: center;
         }
 
-        .paginator__button {
+        .article-paginator__button {
             text-decoration: none !important;
             outline: 0 !important;
             background-color: $color-primary;
@@ -45,7 +45,7 @@
             }
         }
 
-        .paginator__info {
+        .article-paginator__info {
             margin: 0 6px;
 
             @media (max-width: ($default-card-size * 2) + ($default-card-gap * 3) - 1px) {
@@ -53,7 +53,7 @@
             }
         }
 
-        .paginator__mock {
+        .article-paginator__mock {
             margin: 0 5px;
             background-color: #dddddd;
             width: 25px;

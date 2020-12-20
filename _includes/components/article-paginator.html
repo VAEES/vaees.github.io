@@ -1,43 +1,31 @@
 <section id="article-paginator">
-
-    <div class="paginator__wrapper">
-
+    <div class="article-paginator__wrapper">
         {% if paginator.previous_page %}
-
-        <a onclick="navigatePostPage('/articles/')" class="paginator__button">
-            <i class="fas fa-angle-double-left"></i>
-        </a>
-
-        <a onclick="navigatePostPage('{{paginator.previous_page_path}}')" class="paginator__button">
-            <i class="fas fa-angle-left"></i>
-        </a>
-
+            <a onclick="navigatePostPage('/articles/')" class="article-paginator__button">
+                <i class="fas fa-angle-double-left"></i>
+            </a>
+            <a onclick="navigatePostPage('{{paginator.previous_page_path}}')" class="article-paginator__button">
+                <i class="fas fa-angle-left"></i>
+            </a>
         {% else %}
-
-        <div class="paginator__mock"></div>
-        <div class="paginator__mock"></div>
-
+            <div class="article-paginator__mock"></div>
+            <div class="article-paginator__mock"></div>
         {% endif %}
 
-        <span class="paginator__info"> page {{paginator.page}} of {{paginator.total_pages}} </span>
+        <span class="article-paginator__info"> 
+            page {{paginator.page}} of {{paginator.total_pages}} 
+        </span>
 
         {% if paginator.next_page %}
-
-        <a onclick="navigatePostPage('{{paginator.next_page_path}}')" class="paginator__button">
-            <i class="fas fa-angle-right"></i>
-        </a>
-
-        <a onclick="navigatePostPage('/articles/{{paginator.total_pages}}/')" class="paginator__button">
-            <i class="fas fa-angle-double-right"></i>
-        </a>
-
+            <a onclick="navigatePostPage('{{paginator.next_page_path}}')" class="article-paginator__button">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            <a onclick="navigatePostPage('/articles/{{paginator.total_pages}}/')" class="article-paginator__button">
+                <i class="fas fa-angle-double-right"></i>
+            </a>
         {% else %}
-
-        <div class="paginator__mock"></div>
-        <div class="paginator__mock"></div>
-
+            <div class="article-paginator__mock"></div>
+            <div class="article-paginator__mock"></div>
         {% endif %}
-
     </div>
-
 </section>

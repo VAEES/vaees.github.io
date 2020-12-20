@@ -1,21 +1,16 @@
 <section id="article-list">
 
-    <div class="articles__description">
-        <h2> Check my articles list below:</h2>
+    <!-- <div class="article-list__description">
+        <h2> Check our articles list below:</h2>
         <p>
-            There's nothing special there, just a few things to remember in your daily life, <br>
-            like installations, links, code snippets, and others.
+            ....
         </p>
-    </div>
+    </div> -->
 
-    <div class="articles__list">
-
+    <div class="article-list__list">
         {% for article in paginator.posts %}
-
             {% include components/article.html %}
-
         {% endfor %}
-
     </div>
 
 </section>
