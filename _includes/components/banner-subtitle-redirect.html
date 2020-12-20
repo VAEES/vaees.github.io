@@ -15,9 +15,9 @@
 			<h3> {{ include.subtitle }} </h3>
 			<p> {{ include.description }} </p>
 
-            {% if include.path %}
+            {% if include.button %}
                 <div class="banner-subtitle-redirect__goto">
-                    <a href="{{ include.path }}"> Go check </a>
+                    <a href="{{ include.path }}"> {{ include.button }} </a>
                 </div>
             {% endif %}
 

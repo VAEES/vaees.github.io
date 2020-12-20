@@ -27,10 +27,23 @@
             text-align: center;
             width: 200px;
             background-color: $color-white;
+            border: solid 2px $color-white;
             color: $color-black;
             border-radius: 35px;
             padding: 10px 25px;
             text-transform: uppercase;
+
+            &:hover {
+                background: $color-primary;
+                color: $color-white;
+                border: solid 2px $color-white;
+            }
+
+            &:active {
+                background: $color-primary;
+                color: $color-white;
+                border: solid 2px $color-white;
+            }
         }
     }
 }

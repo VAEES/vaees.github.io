@@ -36,7 +36,7 @@
 
             img,
             iframe {
-                width: 400px;
+                width: 365px;
                 height: 251px;
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
@@ -48,6 +48,7 @@
                 @media only screen and (max-width: $breakpoint-m) {
                     width: 320px;
                 }
+
                 @media only screen and (max-width: $breakpoint-s) {
                     clip-path: circle(30% at center center);
                     width: 100%;
@@ -70,6 +71,7 @@
                 @media only screen and (max-width: $breakpoint-m) {
                     width: 320px;
                 }
+
                 @media only screen and (max-width: $breakpoint-s) {
                     width: 100%;
                     padding: 10px 10px 0 10px !important;
