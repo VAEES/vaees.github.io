@@ -1,30 +1,25 @@
 ---
 ---
 
-const url = '{{site.url}}'
+const url = '{{site.url}}';
 
-function navigatePostPage(path) {
-
-    sessionStorage.setItem('last__page',
-        JSON.stringify(
-            { url, path }
-        ))
-
-    window.location.href = `${url}${path}`
+function navigateArticlePage(path) {
+    const navigationData = { url, path };
+    const navigationString = JSON.stringify(navigationData);
+    sessionStorage.setItem('last__page', navigationString);
+    window.location.href = `${url}${path}`;
 }
 
-// function lastPostPage() {
+function lastArticlePage() {
+    let navigationUrl;
+    const navigationString = sessionStorage.getItem('last__page');
 
-//     let
-//         last = sessionStorage.getItem('last__page'),
-//         navigate = url
+    if (navigationString) {
+        navigationData = JSON.parse(navigationString);
+        navigationUrl = `${navigationData.url}${navigationData.path}`;
+    } else {
+        navigationUrl = `${url}/articles/`;
+    }
 
-//     if (last) {
-//         last = JSON.parse(last)
-//         navigate = `${last.url}${last.path}`
-//     } else {
-//         navigate = `${url}/articles/`
-//     }
-
-//     window.location.href = navigate
-// }
+    window.location.href = navigationUrl;
+}

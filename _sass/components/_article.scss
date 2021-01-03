@@ -16,7 +16,7 @@
         bottom: #{$default-card-offset / 2};
         right: 2%;
         height: $default-card-size;
-        background-color: $color-white;;
+        background-color: $color-white;
         border-radius: 5px;
         width: calc(100% - 3% - 8%);
 
@@ -65,6 +65,15 @@
                 display: -webkit-box;
                 -webkit-line-clamp: 7;
                 -webkit-box-orient: vertical;
+            }
+
+            .article__language {
+                height: 16px;
+                width: auto;
+                position: absolute;
+                left: 0;
+                top: 78px;
+                opacity: 0.3;
             }
 
             .article__actions {

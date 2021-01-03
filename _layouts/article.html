@@ -1,0 +1,25 @@
+{% include standards/head.html %}
+
+{% include components/nav-bar.html %}
+
+{% include components/article-content.html %}
+
+{% capture banner_treasure_chest_logo %}
+{{ '/assets/svg/sap-treasure-chest.svg' | prepend: site.baseurl }}
+{% endcapture %}
+
+{% 
+    include components/banner-subtitle-redirect.html 
+    title="Welcome to vaees!"
+    subtitle="The code is our treasure!" 
+    img=banner_treasure_chest_logo
+    path="https://en.vaees.com/contact/"
+    button="Send a message"
+    description="Ahoy! We are an SAP Silver Partner and we are day to day supporting consulting in several companies, developing SAP fiori applications, SAP HANA cloud, neo and cloud foundry environments, among others. We help to identify and develop important automations for your organization! Send us a message, we're cool!"
+%}
+
+{% include components/banner-article.html %}
+
+{% include components/footer.html %}
+
+{% include standards/footer.html %}

@@ -1,0 +1,23 @@
+<section id="article-content">
+
+    <aside class="article-content__back">
+        <h4 onclick="lastArticlePage()">
+            <i class="fas fa-arrow-alt-circle-left"></i>
+            <span> Back to articles list </span>
+        </h4>
+    </aside>
+
+    <article class="article-content__container">
+        {% include variables/reading-time.html %}
+
+        <h1 class="article-content__title"> {{ page.title }} </h1>
+
+        <em class="article-content__description">
+            <time> {{ page.date | date_to_string }} </time>
+            <span class="reading-time" title="Estimated read time"> - {{ readingtime }} </span>
+        </em>
+
+        <div class="article-content__content"> {{ content }} </div>
+    </article>
+
+</section>

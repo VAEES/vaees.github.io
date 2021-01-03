@@ -1,10 +1,10 @@
 <section id="article-paginator">
     <div class="article-paginator__wrapper">
         {% if paginator.previous_page %}
-            <a onclick="navigatePostPage('/articles/')" class="article-paginator__button">
+            <a onclick="navigateArticlePage('/articles/')" class="article-paginator__button">
                 <i class="fas fa-angle-double-left"></i>
             </a>
-            <a onclick="navigatePostPage('{{paginator.previous_page_path}}')" class="article-paginator__button">
+            <a onclick="navigateArticlePage('{{paginator.previous_page_path}}')" class="article-paginator__button">
                 <i class="fas fa-angle-left"></i>
             </a>
         {% else %}
@@ -17,10 +17,10 @@
         </span>
 
         {% if paginator.next_page %}
-            <a onclick="navigatePostPage('{{paginator.next_page_path}}')" class="article-paginator__button">
+            <a onclick="navigateArticlePage('{{paginator.next_page_path}}')" class="article-paginator__button">
                 <i class="fas fa-angle-right"></i>
             </a>
-            <a onclick="navigatePostPage('/articles/{{paginator.total_pages}}/')" class="article-paginator__button">
+            <a onclick="navigateArticlePage('/articles/{{paginator.total_pages}}/')" class="article-paginator__button">
                 <i class="fas fa-angle-double-right"></i>
             </a>
         {% else %}
