@@ -1,9 +1,10 @@
 ---
 layout: article
-title:  "Welcome to Jekyll!"
+title: "Texto pt 01"
 date: 2016-03-14 17:46:41 -0300 
 categories: jekyll update
 thumb: sample.jpg
+language: pt_br
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` , which launches a web server and auto-regenerates your site when a file is updated.
 

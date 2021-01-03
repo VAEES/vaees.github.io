@@ -1,9 +1,7 @@
 <article class="article">
-
     <img class="article__thumb" src="/assets/thumbs/{{article.thumb}}">
 
     <div class="article__content">
-
         <div class="article__wrapper">
 
             <h3> {{ article.title }} </h3>
@@ -12,14 +10,14 @@
 
             <p> {{article.content | strip_html | strip_newlines | truncate: 230 }} </p>
 
+            <img class="article__language" src="/assets/img/{{article.language}}-flag.png" alt="Article's language logo">
+
             <div class="article__actions">
                 <a href="{{ site.baseurl }}{{ article.url }}">
                     <i class="fas fa-angle-double-right"></i>
                 </a>
             </div>
-
         </div>
 
     </div>
-
 </article>
