@@ -7,28 +7,28 @@ thumb: sample.jpg
 language: pt_br
 ---
 
-# Sumário
+# SAP ECC atualizações em TVARVS
 
-1-	Requisitos
-2-	Introdução
-3-	Alteração de TVARV Single Parameter
-4-	Alteração de TVARV Selection Options
-5-	Vínculo da TVARV a Request
+## Sumário
 
-Requisitos
+1.	Requisitos
+2.	Introdução
+3.	Alteração de TVARV Single Parameter
+4.	Alteração de TVARV Selection Options
+5.	Vínculo da TVARV a Request
 
-Acesso ao SAP
-Acesso a transação STVARV
+## 1. Requisitos
 
-Introdução
+- Acesso ao SAP
+- Acesso a transação STVARV
+
+## 2. Introdução
 
 Este manual tem como objetivo a demonstração prática de como realizar a atualização em uma TVARV e seu vínculo com a Request responsável pelo transporte para um ambiente produtivo.
 
-Alteração em TVARV Single Parameters
+## 3. Alteração em TVARV Single Parameters
 
 Acesse a transação STVARV e clique no botão de “Display <-> Change”
-
-img1
 
 Como neste documento temos a intenção de transportar as alterações em uma Request marque o check box “Include changed entries in transport request” – como na imagem a seguir.
 
@@ -38,7 +38,7 @@ Após marcar o check box selecione a entrada que deseja atualizar e clique no bo
 
 O campo será habilitado para alterações. Após a alteração lembre-se de salvar a transação pressionando o botão “Save” ou “Ctrl + S”. Na seção 3 veja como realizar o vínculo com a Request.
 
-Alteração de TVARV Selection Options
+## 4. Alteração de TVARV Selection Options
 
 Para atualizações em TVARVs multivaloradas se faz necessário acessar a Aba Selection Options.
 Selecione a TVARV desejada, clique sobre o botão de edição, após isso acesse a janela de Seleção Múltipla na coluna “Multiple Selection”.
@@ -47,7 +47,7 @@ img3
 
 img4
 
-Vínculo da TVARV a Request
+## 5. Vínculo da TVARV a Request
 
 Para vincular a alteração realizada à uma Request basta apenas selecionar qual a Request desejada após salvar a transação.
 Para encontrar a Request com mais agilidade, pressione o botão “Own Requests” e selecione a request.
