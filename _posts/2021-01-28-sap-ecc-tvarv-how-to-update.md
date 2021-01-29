@@ -27,7 +27,7 @@ Este manual tem como objetivo a demonstração prática de como realizar a atual
 Acesse a transação STVARV e clique no botão de “Display <-> Change”
 
 ![img1]
-(https://github.com/VAEES/vaees.github.io/blob/master/assets/img/sap_ecc_tvarv_update.PNG)
+(https://github.com/VAEES/vaees.github.io/blob/master/assets/img/sap_ecc_tvarv_update.PNG?raw=true)
 
 Como neste documento temos a intenção de transportar as alterações em uma Request marque o check box “Include changed entries in transport request” – como na imagem a seguir.
 
