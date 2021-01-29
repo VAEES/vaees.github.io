@@ -7,9 +7,6 @@ thumb: sample.jpg
 language: pt_br
 ---
 
-# SAP ECC atualizações em TVARVS
-
-
 Este manual tem como objetivo a demonstração prática de como realizar a atualização em uma TVARV e seu vínculo com a Request responsável pelo transporte para um ambiente produtivo.
 
 ## Sumário
