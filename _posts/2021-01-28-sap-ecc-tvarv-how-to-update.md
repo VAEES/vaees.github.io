@@ -27,7 +27,7 @@ Este manual tem como objetivo a demonstração prática de como realizar a atual
 Acesse a transação STVARV e clique no botão de “Display <-> Change”
 
 ![img1]
-(./assets/img/sap_ecc_tvarv_update)
+(./assets/img/sap_ecc_tvarv_update.png)
 
 Como neste documento temos a intenção de transportar as alterações em uma Request marque o check box “Include changed entries in transport request” – como na imagem a seguir.
 
