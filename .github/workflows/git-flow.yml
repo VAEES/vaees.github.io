@@ -1,0 +1,19 @@
+name: Gitflow CI
+
+on: 
+  pull_request:
+    types: [closed]
+    branches: [master, development]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: GitFlow CI
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run git flow process
+        uses: VAEES/git-flow-action@main
+        with:
+          github_token: ${{ secrets.ADMIN_TOKEN }}
+          master_branch: 'master'
+          development_branch: 'development'
