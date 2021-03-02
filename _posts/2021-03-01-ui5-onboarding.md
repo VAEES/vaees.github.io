@@ -15,6 +15,7 @@ Este tutorial tem como objetivo elencar quais passos você deve seguir para cons
 1. Requisitos
 2. Links úteis
 3. Passos a serem seguidos
+4. Passos sugeridos
 
 ## 1. Requisitos
 
@@ -29,8 +30,6 @@ No link a seguir você encontrará um passo a passo detalhado para entender bem 
 Recomendamos também guardar este link para consultar caso tenha dúvidas nas implementações:
 
 [SAP UI5 SDK](https://sapui5.hana.ondemand.com/#/)
-
-[Data Binding](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c)
 
 ## 3. Passos a serem seguidos
 
@@ -55,3 +54,9 @@ No Walkthrough os seguintes passos são essenciais:
 17. [Filtering](https://sapui5.hana.ondemand.com/#/topic/5295470d7eee46c1898ee46c1b9ad763)
 18. [Sorting and Grouping](https://sapui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)
 19. [Unit testing](https://sapui5.hana.ondemand.com/#/topic/e1ce1de315994a02bf162f4b3b5a9f09)
+
+## 4. Passos sugeridos
+
+Caso tenha interesse, seria interessante dar uma olhada também no seguinte:
+
+1. [Data Binding](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c)
