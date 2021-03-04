@@ -2,7 +2,7 @@
 author: Gustavo Fonseca Simil
 layout: article
 title: "Onboarding Git Flow"
-date: 2021-03-02 22:42:00 -0300 
+date: 2021-03-03 22:42:00 -0300 
 categories: Git
 thumb: sample.jpg
 language: pt_br
