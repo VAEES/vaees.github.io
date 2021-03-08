@@ -66,5 +66,5 @@ Nos links a seguir, estarão listados as aulas ou sessões que abordam conceitos
 Caso tenha interesse, seria interessante dar uma olhada também no seguinte:
 
 1. Event Loop
-    1. [Mas que diabos é o loop de eventos? | Philip Roberts | JSConf EU](https://medium.com/@dejaneves/m%C3%B3dulos-javascript-um-guia-para-iniciantes-143a8bae6c78){:target="_blank"}
+    1. [Mas que diabos é o loop de eventos? - Philip Roberts - JSConf EU](https://medium.com/@dejaneves/m%C3%B3dulos-javascript-um-guia-para-iniciantes-143a8bae6c78){:target="_blank"}
     1. [Jake Archibald: In The Loop - JSConf.Asia](https://www.youtube.com/watch?v=cCOL7MC4Pl0&list=RDCMUCzoVCacndDCfGDf41P-z0iA&index=4){:target="_blank"}
