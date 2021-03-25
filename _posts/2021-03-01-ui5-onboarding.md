@@ -59,3 +59,6 @@ No Walkthrough os seguintes passos são essenciais:
 | 21 | Data Binding |  | [SAP UI5 SDK](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c){:target="_blank"} |
 | 22 | Margins and Paddings |  | [SAP UI5 SDK](https://sapui5.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69){:target="_blank"} |
 | 23 | Routing with Params |  | [SAP UI5 SDK](https://sapui5.hana.ondemand.com/#/topic/2366345a94f64ec1a80f9d9ce50a59ef){:target="_blank"} |
+| 24 | SAPUI5 Consume OData V2 | X | [Video no youtube](https://www.youtube.com/watch?v=5Ienv9fVXIM){:target="_blank"} |
+| 25 | SAPUI5 OData V2 with Dynamic Columns From Metadata |  | [Video no youtube](https://www.youtube.com/watch?v=7DQNm4LFWZA){:target="_blank"} |
+| 26 | SAPUI5 OData V2 Batch | X | [Video no youtube](https://www.youtube.com/watch?v=HMzwOUOsGe0){:target="_blank"} |
