@@ -35,7 +35,7 @@ Playlist completa:
 
 [SAP HANA Basics For Developers](https://www.youtube.com/watch?v=eGOxt_acA7o&list=PLoc6uc3ML1JR38-V46qhmGIKG07nXwO6X)
 
-## 3. Videos
+## 3. HANA Videos
 
 | id | descrição | essencial | link |
 |:---:|:---:|:---:|:---:|
@@ -54,3 +54,12 @@ Playlist completa:
 | 13 | calculation view - table function (muito importante!!) | X | [video no youtube](https://www.youtube.com/watch?v=yfnENJTi2NU){:target="_blank"} |
 | 14 | stored procedure | X | [video no youtube](https://www.youtube.com/watch?v=swrSqsjVF5k){:target="_blank"} |
 | 15 | debugging | X | [video no youtube](https://www.youtube.com/watch?v=r88t6PugH_Y){:target="_blank"} |
+
+## 4. Xsodata Videos
+
+| id | descrição | essencial | link |
+|:---:|:---:|:---:|:---:|
+| 1 | introduction | X | [video no youtube](https://www.youtube.com/watch?v=FI3wjC5uRjs){:target="_blank"} |
+| 2 | OData V2 With Multiple Entities and Relationships | X | [video no youtube](https://www.youtube.com/watch?v=qMkxsgtZVH0){:target="_blank"} |
+| 3 | OData V2 Create with Exits | X | [video no youtube](https://www.youtube.com/watch?v=ja6j6XaasuY){:target="_blank"} |
+| 4 | OData V4 Services in Node.js From CD&S | X | [video no youtube](https://www.youtube.com/watch?v=gyAhz32lBYc){:target="_blank"} |
