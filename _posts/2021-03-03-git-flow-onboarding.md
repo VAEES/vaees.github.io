@@ -82,7 +82,7 @@ jobs:
 ### 4.2. git flow feature start
 
 {% highlight text %}
-git flow feature start <<nome-da-funcionalidade>>
+git flow feature start <nome-da-funcionalidade>
 {% endhighlight %}
 
 É o comando para iniciar uma nova funcionalidade. O git flow irá criar uma nova branch local a partir da branch development.
@@ -90,7 +90,7 @@ git flow feature start <<nome-da-funcionalidade>>
 ### 4.3. git flow feature publish
 
 {% highlight text %}
-git flow feature publish <<nome-da-funcionalidade>>
+git flow feature publish <nome-da-funcionalidade>
 {% endhighlight %}
 
 É o comando para publicar a nova funcionalidade no repositório remoto. Assim outros desenvolvedores poderão baixar a branch e também trabalhar na funcionalidade.
@@ -98,7 +98,7 @@ git flow feature publish <<nome-da-funcionalidade>>
 ### 4.4. git flow feature track
 
 {% highlight text %}
-git flow feature track <<nome-da-funcionalidade>>
+git flow feature track <nome-da-funcionalidade>
 {% endhighlight %}
 
 É o comando para baixar uma funcionalidade para o seu repositório local. O git flow irá criar uma branch local com referência à branch remota e você poderá iniciar o seu desenvolvimento.
@@ -106,7 +106,7 @@ git flow feature track <<nome-da-funcionalidade>>
 ### 4.5. git flow bugfix start
 
 {% highlight text %}
-git flow bugfix start <<nome-do-bug-que-será-ajustado>>
+git flow bugfix start <nome-do-bug-que-será-ajustado>
 {% endhighlight %}
 
 O comando bugfix deve ser usado para resolver problemas identificados em funcionalidades que ainda não foram disponibilizadas em ambiente produtivo. Use o comando start para iniciar uma nova correção. O git flow irá criar uma nova branch local a partir da branch development.
@@ -114,7 +114,7 @@ O comando bugfix deve ser usado para resolver problemas identificados em funcion
 ### 4.6. git flow bugfix publish
 
 {% highlight text %}
-git flow bugfix publish <<nome-do-bug-que-será-ajustado>>
+git flow bugfix publish <nome-do-bug-que-será-ajustado>
 {% endhighlight %}
 
 É o comando para publicar a correção no repositório remoto. Assim outros desenvolvedores poderão baixar a branch e também trabalhar na correção.
@@ -122,7 +122,7 @@ git flow bugfix publish <<nome-do-bug-que-será-ajustado>>
 ### 4.7. git flow bugfix track
 
 {% highlight text %}
-git flow bugfix track <<nome-do-bug-que-será-ajustado>>
+git flow bugfix track <nome-do-bug-que-será-ajustado>
 {% endhighlight %}
 
 É o comando para baixar uma correção para o seu repositório local. O git flow irá criar uma branch local com referência à branch remota e você poderá iniciar o seu desenvolvimento.
@@ -130,7 +130,7 @@ git flow bugfix track <<nome-do-bug-que-será-ajustado>>
 ### 4.8. git flow hotfix start
 
 {% highlight text %}
-git flow hotfix start <<nome-do-hotfix-que-será-ajustado>>
+git flow hotfix start <nome-do-hotfix-que-será-ajustado>
 {% endhighlight %}
 
 O comando hotfix deve ser usado para resolver problemas identificados na trilha produtiva. Em geral são correções críticas que estão impactando a utilização da aplicação pelos usuários. Use o comando start para iniciar uma nova correção. O git flow irá criar uma nova branch local a partir da branch development.
@@ -140,7 +140,7 @@ Quando um hotfix é finalizado, o Git Flow realiza a sua fusão tanto na branch 
 ### 4.9. git flow hotfix publish
 
 {% highlight text %}
-git flow hotfix publish <<nome-do-hotfix-que-será-ajustado>>
+git flow hotfix publish <nome-do-hotfix-que-será-ajustado>
 {% endhighlight %}
 
 É o comando para publicar a correção no repositório remoto. Assim outros desenvolvedores poderão baixar a branch e também trabalhar na correção.
@@ -148,7 +148,7 @@ git flow hotfix publish <<nome-do-hotfix-que-será-ajustado>>
 ### 4.10. git flow hotfix track
 
 {% highlight text %}
-git flow hotfix track <<nome-do-hotfix-que-será-ajustado>>
+git flow hotfix track <nome-do-hotfix-que-será-ajustado>
 {% endhighlight %}
 
 É o comando para baixar uma correção para o seu repositório local. O git flow irá criar uma branch local com referência à branch remota e você poderá iniciar o seu desenvolvimento.
@@ -156,7 +156,7 @@ git flow hotfix track <<nome-do-hotfix-que-será-ajustado>>
 ### 4.11. git flow release start
 
 {% highlight text %}
-git flow release start <<numero-da-release>>
+git flow release start <numero-da-release>
 {% endhighlight %}
 
 É o comando para criação de uma nova release da sua aplicação. As releases na VAEES são numéricas e respeitam a formatação semântica MAJOR.MINOR.PATCH (X.X.X):
@@ -168,7 +168,7 @@ A release é criada com referência à branch development. Quando a release é f
 
 ### 4.12. Pull Request
 
-Na VAEES não utilizamos o comando git flow <<feature/bugfix/release/hotfix>> finish. Quando uma Pull Request é aprovada pelo revisor do código, é disparado um workflow no próprio Github que executa automaticamente o comando finish. O mesmo workflow garante também que a criação das tags e publicação da mesma no repositório remoto.
+Na VAEES não utilizamos o comando git flow <feature/bugfix/release/hotfix> finish. Quando uma Pull Request é aprovada pelo revisor do código, é disparado um workflow no próprio Github que executa automaticamente o comando finish. O mesmo workflow garante também que a criação das tags e publicação da mesma no repositório remoto.
 
 ## 5. Referências
 
