@@ -35,22 +35,31 @@ Playlist completa:
 
 [SAP HANA Basics For Developers](https://www.youtube.com/watch?v=eGOxt_acA7o&list=PLoc6uc3ML1JR38-V46qhmGIKG07nXwO6X)
 
-## 3. Videos
+## 3. HANA Videos
 
 | id | descrição | essencial | link |
 |:---:|:---:|:---:|:---:|
-| 1 | introduction | X | [video no youtube](https://www.youtube.com/watch?v=eGOxt_acA7o) |
-| 2 | tooling | X | [video no youtube](https://www.youtube.com/watch?v=2_P6jcbFzeo) |
-| 3 | application server layer | X | [video no youtube](https://www.youtube.com/watch?v=ZNfappDalwk) |
-| 4 | hello world | X | [video no youtube](https://www.youtube.com/watch?v=n3UGoUwVSHE) |
-| 5 | HANA database content | X | [video no youtube](https://www.youtube.com/watch?v=BsuMwGo9rNk) |
-| 6 | core data services (CDS) | X | [video no youtube](https://www.youtube.com/watch?v=O0qSsbnx3u8) |
-| 7 | load table data through .hdbtabledata | X | [video no youtube](https://www.youtube.com/watch?v=Df6RDdOaoHw) |
-| 8 | roles and privileges | X | [video no youtube](https://www.youtube.com/watch?v=yuPBSwBlFfo) |
-| 9 | cross container from same project | X | [video no youtube](https://www.youtube.com/watch?v=gYBBqK9Wa88) |
-| 10 | cross container from outside project | X | [video no youtube](https://www.youtube.com/watch?v=5qyxo_L9c2c) |
-| 11 | calculation view - Dimension | X | [video no youtube](https://www.youtube.com/watch?v=HEiyR7clkrQ) |
-| 12 | calculation view - Cube | X | [video no youtube](https://www.youtube.com/watch?v=aAkkyczPdPg) |
-| 13 | calculation view - table function (muito importante!!) | X | [video no youtube](https://www.youtube.com/watch?v=yfnENJTi2NU) |
-| 14 | stored procedure | X | [video no youtube](https://www.youtube.com/watch?v=swrSqsjVF5k) |
-| 15 | debugging | X | [video no youtube](https://www.youtube.com/watch?v=r88t6PugH_Y) |
+| 1 | introduction | X | [video no youtube](https://www.youtube.com/watch?v=eGOxt_acA7o){:target="_blank"} |
+| 2 | tooling | X | [video no youtube](https://www.youtube.com/watch?v=2_P6jcbFzeo){:target="_blank"} |
+| 3 | application server layer | X | [video no youtube](https://www.youtube.com/watch?v=ZNfappDalwk){:target="_blank"} |
+| 4 | hello world | X | [video no youtube](https://www.youtube.com/watch?v=n3UGoUwVSHE){:target="_blank"} |
+| 5 | HANA database content | X | [video no youtube](https://www.youtube.com/watch?v=BsuMwGo9rNk){:target="_blank"} |
+| 6 | core data services (CDS) | X | [video no youtube](https://www.youtube.com/watch?v=O0qSsbnx3u8){:target="_blank"} |
+| 7 | load table data through .hdbtabledata | X | [video no youtube](https://www.youtube.com/watch?v=Df6RDdOaoHw){:target="_blank"} |
+| 8 | roles and privileges | X | [video no youtube](https://www.youtube.com/watch?v=yuPBSwBlFfo){:target="_blank"} |
+| 9 | cross container from same project | X | [video no youtube](https://www.youtube.com/watch?v=gYBBqK9Wa88){:target="_blank"} |
+| 10 | cross container from outside project | X | [video no youtube](https://www.youtube.com/watch?v=5qyxo_L9c2c){:target="_blank"} |
+| 11 | calculation view - Dimension | X | [video no youtube](https://www.youtube.com/watch?v=HEiyR7clkrQ){:target="_blank"} |
+| 12 | calculation view - Cube | X | [video no youtube](https://www.youtube.com/watch?v=aAkkyczPdPg){:target="_blank"} |
+| 13 | calculation view - table function (muito importante!!) | X | [video no youtube](https://www.youtube.com/watch?v=yfnENJTi2NU){:target="_blank"} |
+| 14 | stored procedure | X | [video no youtube](https://www.youtube.com/watch?v=swrSqsjVF5k){:target="_blank"} |
+| 15 | debugging | X | [video no youtube](https://www.youtube.com/watch?v=r88t6PugH_Y){:target="_blank"} |
+
+## 4. Xsodata Videos
+
+| id | descrição | essencial | link |
+|:---:|:---:|:---:|:---:|
+| 1 | introduction | X | [video no youtube](https://www.youtube.com/watch?v=FI3wjC5uRjs){:target="_blank"} |
+| 2 | OData V2 With Multiple Entities and Relationships | X | [video no youtube](https://www.youtube.com/watch?v=qMkxsgtZVH0){:target="_blank"} |
+| 3 | OData V2 Create with Exits | X | [video no youtube](https://www.youtube.com/watch?v=ja6j6XaasuY){:target="_blank"} |
+| 4 | OData V4 Services in Node.js From CD&S | X | [video no youtube](https://www.youtube.com/watch?v=gyAhz32lBYc){:target="_blank"} |
