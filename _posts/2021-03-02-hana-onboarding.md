@@ -66,4 +66,4 @@ Abaixo também listamos alguns canais interessantes para serem seguidos:
     1. [Debugging no Hana](https://www.youtube.com/watch?v=iCZWk4lGusk){:target="_blank"}
     2. [Debugging no OData](https://www.youtube.com/watch?v=3xjQObWgXfI){:target="_blank"}
 2. Outros
-    1. [Playlist completa](https://www.youtube.com/watch?v=ljdvqRtSHd4&list=PL6RpkC85SLQAPHYG1x6IEu_exE5pa0UK_&index=1)
+    1. [Playlist completa](https://www.youtube.com/watch?v=ljdvqRtSHd4&list=PL6RpkC85SLQAPHYG1x6IEu_exE5pa0UK_&index=1){:target="_blank"}
